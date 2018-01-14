@@ -1,0 +1,8 @@
+[2018-01-15 00:04:34] INFO: [sitespeedio] Versions OS: win32 10.0.16299 nodejs: v8.8.1 sitespeed.io: 6.2.3 browsertime: 2.1.2 coach: 1.1.2
+[2018-01-15 00:04:34] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing https://github.com 3 time(s)
+[2018-01-15 00:04:34] INFO: [root] Testing url https://github.com run 1
+[2018-01-15 00:04:48] INFO: [root] Testing url https://github.com run 2
+[2018-01-15 00:05:00] INFO: [root] Testing url https://github.com run 3
+[2018-01-15 00:05:12] INFO: [root] 46 requests, 2074.52 kb, backEndTime: 887ms (±86.17ms), firstPaint: 1.66s (±69.20ms), DOMContentLoaded: 1.70s (±78.27ms), Load: 5.87s (±71.49ms), rumSpeedIndex: 1783 (±62.39) (3 runs)
+[2018-01-15 00:05:14] INFO: [sitespeedio.plugin.html] HTML stored in C:\Users\Daniel\GITHUB\wpo-test\sitespeed-result\github.com\2018-01-15-00-04-34
+[2018-01-15 00:05:14] INFO: [sitespeedio] Finished analysing https://github.com

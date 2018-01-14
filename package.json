@@ -1,0 +1,25 @@
+{
+  "name": "wpo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "psi": "psi",
+    "lighthouse": "lighthouse",
+    "sitespeed.io": "sitespeed.io",
+    "browsertime": "browsertime",
+    "pagexray ": "pagexray",
+    "webcoach ": "webcoach",
+    "sonarwhal": "sonarwhal"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^2.8.0",
+    "psi": "^3.0.0",
+    "sitespeed.io": "^6.2.3",
+    "sonarwhal": "^0.22.1"
+  }
+}

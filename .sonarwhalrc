@@ -1,0 +1,42 @@
+{
+    "browserslist": [],
+    "connector": {
+        "name": "chrome",
+        "options": {
+            "waitFor": 1000
+        }
+    },
+    "formatters": [
+        "stylish"
+    ],
+    "ignoredUrls": [],
+    "rules": {
+        "amp-validator": "off",
+        "apple-touch-icons": "off",
+        "axe": "off",
+        "content-type": "off",
+        "disown-opener": "off",
+        "highest-available-document-mode": "off",
+        "html-checker": "off",
+        "http-cache": "error",
+        "http-compression": "error",
+        "image-optimization-cloudinary": "error",
+        "manifest-app-name": "off",
+        "manifest-exists": "off",
+        "manifest-file-extension": "off",
+        "manifest-is-valid": "off",
+        "meta-charset-utf-8": "off",
+        "meta-viewport": "off",
+        "no-disallowed-headers": "off",
+        "no-friendly-error-pages": "off",
+        "no-html-only-headers": "error",
+        "no-http-redirects": "off",
+        "no-protocol-relative-urls": "off",
+        "no-vulnerable-javascript-libraries": "off",
+        "ssllabs": "off",
+        "strict-transport-security": "off",
+        "validate-set-cookie-header": "off",
+        "x-content-type-options": "off"
+    },
+    "rulesTimeout": 120000
+}
