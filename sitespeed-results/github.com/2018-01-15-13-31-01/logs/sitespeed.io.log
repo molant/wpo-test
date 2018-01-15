@@ -1,0 +1,17 @@
+[2018-01-15 13:31:01] INFO: [sitespeedio] Versions OS: darwin 16.6.0 nodejs: v8.9.0 sitespeed.io: 6.2.3 browsertime: 2.1.2 coach: 1.1.2
+[2018-01-15 13:31:01] INFO: [sitespeedio.plugin.browsertime] Starting chrome for analysing https://github.com 3 time(s)
+[2018-01-15 13:31:01] INFO: [root] Testing url https://github.com run 1
+[2018-01-15 13:31:08] INFO: [root] Testing url https://github.com run 2
+[2018-01-15 13:31:14] INFO: [root] Testing url https://github.com run 3
+[2018-01-15 13:31:20] INFO: [root] 46 requests, 2074.53 kb, backEndTime: 817ms (±31.66ms), firstPaint: 1.48s (±45.79ms), DOMContentLoaded: 1.59s (±51.65ms), Load: 2.38s (±53.42ms), rumSpeedIndex: 1476 (±45.79) (3 runs)
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget browsertime.pageSummary.statistics.timings.firstPaint.median for https://github.com with value 1451 ms max limit 1000 ms
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget pagexray.pageSummary.transferSize for https://github.com with value 2.0 MB max limit 97.7 KB
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget pagexray.pageSummary.requests for https://github.com with value 46 max limit 20
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget pagexray.pageSummary.contentTypes.css.requests for https://github.com with value 3 max limit 1
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget pagexray.pageSummary.contentTypes.image.transferSize for https://github.com with value 1.6 MB max limit 97.7 KB
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget coach.pageSummary.advice.performance.score for https://github.com with value 74 min limit 75
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget coach.pageSummary.advice.info.domElements for https://github.com with value 510 max limit 200
+[2018-01-15 13:31:21] ERROR: [sitespeedio.plugin.budget] Failing budget coach.pageSummary.advice.info.domDepth.max for https://github.com with value 12 max limit 10
+[2018-01-15 13:31:21] INFO: [sitespeedio.plugin.budget] Budget: 4 working and 8 failing tests
+[2018-01-15 13:31:23] INFO: [sitespeedio.plugin.html] HTML stored in /Users/druf/projects/wpo-test/sitespeed-result/github.com/2018-01-15-13-31-01
+[2018-01-15 13:31:23] INFO: [sitespeedio] Finished analysing https://github.com
