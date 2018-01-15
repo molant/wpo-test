@@ -1,0 +1,8 @@
+npm run sonarwhal -- --init
+npm run sonarwhal -- https://github.com
+npm run psi -- https://github.com --threshold=80
+npm run lighthouse -- https://github.com --perf
+npm run lighthouse -- https://github.com --perf --output=json
+node node_modules/browsertime/bin/browsertime.js https://github.com
+node node_modules/sitespeed.io/bin/sitespeed.js https://github.com --summary-detail
+node node_modules/webcoach/bin/webcoach.js https://github.com
