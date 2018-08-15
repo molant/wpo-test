@@ -11,15 +11,15 @@
     "browsertime": "browsertime",
     "pagexray ": "pagexray",
     "webcoach ": "webcoach",
-    "sonarwhal": "sonarwhal"
+    "webhint": "hint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "hint": "^3.2.0",
     "lighthouse": "^2.8.0",
     "psi": "^3.0.0",
-    "sitespeed.io": "^6.2.3",
-    "sonarwhal": "^0.22.1"
+    "sitespeed.io": "^6.2.3"
   }
 }

@@ -1,5 +1,5 @@
-npm run sonarwhal -- --init
-npm run sonarwhal -- https://github.com
+npm create hintrc
+npm run webhint -- https://github.com
 npm run psi -- https://github.com --threshold=80
 npm run lighthouse -- https://github.com --perf
 npm run lighthouse -- https://github.com --perf --output=json
